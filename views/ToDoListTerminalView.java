@@ -108,6 +108,4 @@ public class ToDoListTerminalView implements ToDoListView{
     public void run() {
         showMainMenu();
     }
-
-
 }

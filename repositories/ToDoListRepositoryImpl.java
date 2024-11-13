@@ -15,7 +15,6 @@ public class ToDoListRepositoryImpl implements ToDoListRepository{
     public void add(ToDoList toDoList) {
         resizeArrayIfFull();
 
-        // add todo to array that has null element
         for (int i = 0; i < todos.length; i++) {
             if (todos[i] == null) {
                 todos[i] = toDoList;
